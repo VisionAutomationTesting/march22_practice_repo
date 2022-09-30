@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Zerodha_EndToEndFlow]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EndToEnd-Test(failed)">
+    <classes>
+      <class name="com.zerodha.TestCases.LoginPageTest">
+        <methods>
+          <include name="closeLoginTest"/>
+          <include name="validateLoginFun"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.zerodha.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- EndToEnd-Test(failed) -->
+</suite> <!-- Failed suite [Zerodha_EndToEndFlow] -->
